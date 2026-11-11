@@ -1,0 +1,9 @@
+{
+  "name": "shopping-scouts",
+  "description": "shopping-advisor skill: decide what to buy, where and at what price, using ali-scout, amazon-scout and price-history",
+  "version": "0.1.0",
+  "author": { "name": "Simi24" },
+  "homepage": "https://github.com/Simi24/shopping-scouts",
+  "repository": "https://github.com/Simi24/shopping-scouts",
+  "license": "MIT"
+}

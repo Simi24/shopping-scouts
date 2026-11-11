@@ -1,0 +1,27 @@
+{
+  "name": "shopping-scouts",
+  "owner": { "name": "Simi24" },
+  "description": "Agent tools for buying things online: AliExpress and Amazon search, review analysis, price history and a shopping-advisor skill",
+  "plugins": [
+    {
+      "name": "shopping-scouts",
+      "source": "./",
+      "description": "shopping-advisor skill: is the price good, are there better-value alternatives, what does the extra money buy"
+    },
+    {
+      "name": "ali-scout",
+      "source": { "source": "github", "repo": "Simi24/ali-scout" },
+      "description": "Search AliExpress, read reviews and judge prices against the 30-day low"
+    },
+    {
+      "name": "amazon-scout",
+      "source": { "source": "github", "repo": "Simi24/amazon-scout" },
+      "description": "Search Amazon, read its review summary and build ready-to-checkout cart links (SerpApi)"
+    },
+    {
+      "name": "price-history",
+      "source": { "source": "github", "repo": "Simi24/price-history" },
+      "description": "Price history by store from Google Shopping with a deal verdict (SerpApi)"
+    }
+  ]
+}
